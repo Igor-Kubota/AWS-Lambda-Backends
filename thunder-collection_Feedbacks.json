@@ -1,0 +1,52 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Feedbacks",
+    "dateExported": "2023-11-28T22:58:43.530Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "86a7c607-50d0-4694-85ec-381b63829923",
+            "colId": "d45f4fcf-eb9d-4fbf-94df-4f762e46546c",
+            "containerId": "",
+            "name": "Post Feedback",
+            "url": "https://wqq2jrm2s4.execute-api.us-east-1.amazonaws.com/dev/feedback",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-11-28T21:22:02.734Z",
+            "modified": "2023-11-28T22:41:55.533Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "<chave-aws>"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"comentario\":\"nada a comentar\",\n  \"classificacao\":\"nada \",\n  \"info\":\"produto 4\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d493919b-c981-49ed-a8b1-93206b88323f",
+            "colId": "d45f4fcf-eb9d-4fbf-94df-4f762e46546c",
+            "containerId": "",
+            "name": "Get Feedback",
+            "url": "https://wqq2jrm2s4.execute-api.us-east-1.amazonaws.com/dev/feedback",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-28T21:22:58.232Z",
+            "modified": "2023-11-28T22:41:36.789Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "<chave-aws>"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
