@@ -5,8 +5,8 @@ import './App.css';
 function App() {
   const [feedback, setFeedback] = useState({ id: '', comentario: '', classificacao: '', info: '' });
   const [feedbacks, setFeedbacks] = useState([]);
-  const [backendURL, setBackendURL] = useState('https://wqq2jrm2s4.execute-api.us-east-1.amazonaws.com/dev');
-  const [apiKey, setApiKey] = useState('https://wqq2jrm2s4.execute-api.us-east-1.amazonaws.com/dev');
+  const [backendURL, setBackendURL] = useState('');
+  const [apiKey, setApiKey] = useState('');
 
   // useEffect(() => {
   //   obterLivros()
